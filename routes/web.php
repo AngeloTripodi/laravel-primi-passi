@@ -15,16 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('homepage');
-});
+})->name('homepage');;
 
 Route::get('/tizio', function () {
     return view('tizio');
-});
+})->name('tizio');
 
 Route::get('/caio', function () {
     return view('caio');
-});
+})->name('caio');;
 
 Route::get('/pippo', function () {
     return view('pippo');
-});
+})->name('pippo');;

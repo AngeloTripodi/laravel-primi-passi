@@ -14,10 +14,16 @@
                 <div id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"></a>
+                    <a class="nav-link" aria-current="page" href="{!! route('homepage') !!}">Homepage</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link active" href="{!! route('tizio') !!}">Tizio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="{!! route('caio') !!}">Caio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{!! route('pippo') !!}">Pippo</a>
                     </li>
                 </div>
             </div>
